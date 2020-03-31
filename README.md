@@ -360,8 +360,8 @@ class PaymentRequestForm extends React.Component {
           paymentRequestButton: {
             theme: 'light',
             height: '64px',
-          },
-        }}
+          }},
+        }
       />
     ) : null;
   }
