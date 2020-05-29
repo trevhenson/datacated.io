@@ -328,6 +328,10 @@ textarea {
     line-height: inherit
 }
 
+textarea {
+    width: fit-content;
+}
+
 a {
     color: #FC5AA6;
     text-decoration: none
