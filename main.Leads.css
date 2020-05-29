@@ -5706,7 +5706,8 @@ label {
     background: #292336;
     padding: 2rem;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    color: #ffffff; 
 }
 
 @media (min-width:992px) {
