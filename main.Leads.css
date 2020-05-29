@@ -143,7 +143,11 @@ select,
 textarea {
     color: inherit;
     font: inherit;
-    margin: 0
+    margin: 2;
+}
+
+textarea {
+    width: fit-content;
 }
 
 button {
@@ -5707,7 +5711,7 @@ label {
     padding: 2rem;
     position: relative;
     z-index: 1;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 @media (min-width:992px) {
