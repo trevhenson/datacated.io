@@ -89,10 +89,22 @@
 
     <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-    <label for="zip">Zip</label><input id="zip" maxlength="20" name="zip" size="20" type="text" />
-    <br> Expected Time to Buy:<textarea id="00N3h0000042X3L" name="00N3h0000042X3L" type="text" wrap="soft"></textarea>
-    <br> Property Area:<textarea id="00N3h0000042X3U" name="00N3h0000042X3U" type="text" wrap="soft"></textarea>
-    <br> Credit Score:<textarea id="00N3h0000042X3J" name="00N3h0000042X3J" type="text" wrap="soft"></textarea>
+    <label for="zip">
+        Zip
+    </label>
+    <input id="zip" maxlength="20" name="zip" size="20" type="text" />
+    <br> Expected Time to Buy:
+    <input id="00N3h0000042X3L" name="00N3h0000042X3L" type="text" list="periods" wrap="soft">
+    <datalist id="periods">
+        <option value="Less Than 30 Days" selected>Less Than 30 Days</option>
+        <option value="1-2 Months">1-2 Months</option>
+        <option value="2-4 Months">2-4 Months</option>
+        <option value="4-6 Months">4-6 Months</option>
+        <option value="More Than 6 Months from Now">More Than 6 Months from Now</option>
+    </datalist>
+    <br> Property Area:<input id="00N3h0000042X3U" name="00N3h0000042X3U" type="text" wrap="soft">
+
+    <br> Credit Score:<input id="00N3h0000042X3J" name="00N3h0000042X3J" type="text" list="creditranges" wrap="soft">
     <br>
 
     <input type="submit" name="submit">
