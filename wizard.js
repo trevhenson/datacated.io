@@ -136,7 +136,7 @@ function Step1(props) {
                 className: "form-control",
                 id: "email",
                 name: "email",
-                type: "text",
+                type: "select",
                 placeholder: "Enter email",
                 value: props.email,
                 onChange: props.handleChange
