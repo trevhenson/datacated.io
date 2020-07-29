@@ -91,7 +91,7 @@ class MasterForm extends React.Component {
     render() {
         return (
             React.createElement(React.Fragment, null,
-                React.createElement("h1", null, "React Wizard Form \uD83E\uDDD9\u200D\u2642\uFE0F"),
+                React.createElement("h1", null, "Check Your Loan Rate Today!"),
                 React.createElement("p", null, "Step ", this.state.currentStep, " "),
 
                 React.createElement("form", { onSubmit: this.handleSubmit },
