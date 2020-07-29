@@ -1,194 +1,101 @@
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-class MasterForm extends React.Component {
-    constructor(props) {
-        super(props);
-        _defineProperty(this, "handleChange",
+(function($) {
 
 
 
-
-
-
-
-
-            event => {
-                const { name, value } = event.target;
-                this.setState({
-                    [name]: value
-                });
-
-            });
-        _defineProperty(this, "handleSubmit",
-
-            event => {
-                event.preventDefault();
-                const { email, username, password } = this.state;
-                alert(`Your registration detail: \n 
-             Email: ${email} \n 
-             Username: ${username} \n
-             Password: ${password}`);
-            });
-        _defineProperty(this, "_next",
-
-            () => {
-                let currentStep = this.state.currentStep;
-                currentStep = currentStep >= 2 ? 3 : currentStep + 1;
-                this.setState({
-                    currentStep: currentStep
-                });
-
-            });
-        _defineProperty(this, "_prev",
-
-            () => {
-                let currentStep = this.state.currentStep;
-                currentStep = currentStep <= 1 ? 1 : currentStep - 1;
-                this.setState({
-                    currentStep: currentStep
-                });
-
-            });
-        this.state = { currentStep: 1, email: "", username: "", password: "" };
-    }
-
-    /*
-     * the functions for our button
-     */
-    previousButton() {
-        let currentStep = this.state.currentStep;
-        if (currentStep !== 1) {
-            return (
-                React.createElement("button", {
-                    className: "btn btn-secondary",
-                    type: "button",
-                    onClick: this._prev
-                }, "Previous"));
-
-
-
-
+    var form = $("#signup-form");
+    form.validate({
+        errorPlacement: function errorPlacement(error, element) {
+            element.before(error);
+        },
+        rules: {
+            first_name: {
+                required: true,
+            },
+            last_name: {
+                required: true,
+            },
+            email: {
+                required: true,
+            }
+        },
+        onfocusout: function(element) {
+            $(element).valid();
+        },
+        highlight: function(element, errorClass, validClass) {
+            $(element.form).find('.actions').addClass('form-error');
+            $(element).parent().find('.form-label').addClass('form-label-error');
+            $(element).removeClass('valid');
+            $(element).addClass('error');
+        },
+        unhighlight: function(element, errorClass, validClass) {
+            $(element.form).find('.actions').removeClass('form-error');
+            $(element).parent().find('.form-label').removeClass('form-label-error');
+            $(element).removeClass('error');
+            $(element).addClass('valid');
         }
-        return null;
-    }
+    });
+    form.children("div").steps({
+        headerTag: "h3",
+        bodyTag: "fieldset",
+        transitionEffect: "fade",
+        labels: {
+            previous: '<i class="zmdi zmdi-chevron-left"></i>',
+            next: '<i class="zmdi zmdi-chevron-right"></i>',
+            finish: '<i class="zmdi zmdi-chevron-right"></i>'
+        },
+        onStepChanging: function(event, currentIndex, newIndex) {
+            if (currentIndex === 0) {
+                form.parent().parent().parent().append('<div class="footer footer-' + currentIndex + '"></div>');
+            }
+            if (currentIndex === 1) {
+                form.parent().parent().parent().find('.footer').removeClass('footer-0').addClass('footer-' + currentIndex + '');
+            }
+            if (currentIndex === 2) {
+                form.parent().parent().parent().find('.footer').removeClass('footer-1').addClass('footer-' + currentIndex + '');
+            }
+            if (currentIndex === 3) {
+                form.parent().parent().parent().find('.footer').removeClass('footer-2').addClass('footer-' + currentIndex + '');
+            }
+            // if(currentIndex === 4) {
+            //     form.parent().parent().parent().append('<div class="footer" style="height:752px;"></div>');
+            // }
+            form.validate().settings.ignore = ":disabled,:hidden";
+            return form.valid();
+        },
+        onFinishing: function(event, currentIndex) {
+            form.validate().settings.ignore = ":disabled";
+            return form.valid();
+        },
+        onFinished: function(event, currentIndex) {
+            form.parent().parent().append('<h1>Hi , Hoang !</h1>').parent().addClass('finished');
+            return true;
+        },
+        onStepChanged: function(event, currentIndex, priorIndex) {
 
-    nextButton() {
-        let currentStep = this.state.currentStep;
-        if (currentStep < 3) {
-            return (
-                React.createElement("button", {
-                    className: "btn btn-primary float-right",
-                    type: "button",
-                    onClick: this._next
-                }, "Next"));
-
-
-
-
+            return true;
         }
-        return null;
-    }
+    });
 
-    render() {
-        return (
-            React.createElement(React.Fragment, null,
-                React.createElement("h1", null, "Check Your Loan Rate Today!"),
-                React.createElement("p", null, "Step ", this.state.currentStep, " "),
+    jQuery.extend(jQuery.validator.messages, {
+        required: "",
+        remote: "",
+        email: "",
+        url: "",
+        date: "",
+        dateISO: "",
+        number: "",
+        digits: "",
+        creditcard: "",
+        equalTo: ""
+    });
+    $(".toggle-password").on('click', function() {
 
-                React.createElement("form", { onSubmit: this.handleSubmit },
-
-
-
-                    React.createElement(Step1, {
-                        currentStep: this.state.currentStep,
-                        handleChange: this.handleChange,
-                        email: this.state.email
-                    }),
-
-                    React.createElement(Step2, {
-                        currentStep: this.state.currentStep,
-                        handleChange: this.handleChange,
-                        username: this.state.username
-                    }),
-
-                    React.createElement(Step3, {
-                        currentStep: this.state.currentStep,
-                        handleChange: this.handleChange,
-                        password: this.state.password
-                    }),
-
-                    this.previousButton(),
-                    this.nextButton())));
-
-
-
-    }
-}
-
-
-function Step1(props) {
-    if (props.currentStep !== 1) {
-        return null;
-    }
-    return (
-        React.createElement("div", { className: "form-group" },
-            React.createElement("label", { htmlFor: "email" }, "Email address"),
-            React.createElement("input", {
-                className: "form-control",
-                id: "email",
-                name: "email",
-                type: "select",
-                placeholder: "Enter email",
-                value: props.email,
-                onChange: props.handleChange
-            })));
-
-
-
-}
-
-function Step2(props) {
-    if (props.currentStep !== 2) {
-        return null;
-    }
-    return (
-        React.createElement("div", { className: "form-group" },
-            React.createElement("label", { htmlFor: "username" }, "Username"),
-            React.createElement("input", {
-                className: "form-control",
-                id: "username",
-                name: "username",
-                type: "text",
-                placeholder: "Enter username",
-                value: props.username,
-                onChange: props.handleChange
-            })));
-
-
-
-}
-
-function Step3(props) {
-    if (props.currentStep !== 3) {
-        return null;
-    }
-    return (
-        React.createElement(React.Fragment, null,
-            React.createElement("div", { className: "form-group" },
-                React.createElement("label", { htmlFor: "password" }, "Password"),
-                React.createElement("input", {
-                    className: "form-control",
-                    id: "password",
-                    name: "password",
-                    type: "password",
-                    placeholder: "Enter password",
-                    value: props.password,
-                    onChange: props.handleChange
-                })),
-
-
-            React.createElement("button", { className: "btn btn-success btn-block" }, "Sign up")));
-
-
-}
-
-ReactDOM.render(React.createElement(MasterForm, null), document.getElementById("root"));
+        $(this).toggleClass("zmdi-eye zmdi-eye-off");
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
+})(jQuery);
