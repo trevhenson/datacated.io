@@ -32,14 +32,14 @@ This files table contents are outlined below>>>>>
 /*
 Default Style
 ============================*/
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   padding: 0;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
-  font-family: "Nunito+Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #7a7e9a;
 }
 
@@ -73,7 +73,7 @@ button:focus {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #293a5c;
-  font-family: "Nunito", sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-weight: 700;
 }
 
@@ -145,7 +145,7 @@ ul {
   -webkit-box-shadow: unset;
           box-shadow: unset;
   outline: 0;
-  border: 1px solid #1d42d9;
+  border: 1px solid #0C7489;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -306,7 +306,7 @@ Go Top Style*/
   cursor: pointer;
   top: 93%;
   right: -10%;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -346,7 +346,7 @@ Go Top Style*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -414,7 +414,7 @@ Go Top Style*/
 }
 
 .section-title span {
-  color: #1d42d9;
+  color: #0C7489;
   font-size: 14px;
   position: relative;
   display: inline-block;
@@ -443,8 +443,8 @@ Go Top Style*/
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  background-color: #1d42d9;
-  border: 1px solid #1d42d9;
+  background-color: #0C7489;
+  border: 1px solid #0C7489;
 }
 
 .box-btn::before {
@@ -454,7 +454,7 @@ Go Top Style*/
   left: 100%;
   width: 100%;
   height: 50%;
-  background-color: #051242;
+  background-color: #0DCD7A;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -467,7 +467,7 @@ Go Top Style*/
   right: 100%;
   width: 100%;
   height: 50%;
-  background-color: #051242;
+  background-color: #0DCD7A;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -505,7 +505,7 @@ Go Top Style*/
 
 /** Preloader Css **/
 .loader-content {
-  background: #051242;
+  background: #0DCD7A;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -651,7 +651,7 @@ Header Area Css
 }
 
 .header-area .header-content-right .header-contact li a {
-  color: #051242;
+  color: #0DCD7A;
 }
 
 .header-area .header-content-right .header-contact li a i {
@@ -663,7 +663,7 @@ Header Area Css
 }
 
 .header-area .header-content-right .header-contact li a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .header-area .header-content-right .header-contact li:last-child {
@@ -675,7 +675,7 @@ Header Area Css
   width: 1px;
   height: 24px;
   content: "";
-  background: #1d42d9;
+  background: #0C7489;
   right: -40px;
   top: 2px;
 }
@@ -694,7 +694,7 @@ Header Area Css
 
 .header-area .header-content-right .header-social li a {
   font-size: 16px;
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .header-area .header-content-right .header-social li a:hover {
@@ -914,7 +914,7 @@ Navbar Area Css
   left: 0px;
   width: 0;
   height: 100px;
-  background: #1d42d9;
+  background: #0C7489;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   z-index: -1;
@@ -930,11 +930,11 @@ Navbar Area Css
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
@@ -1047,7 +1047,7 @@ Navbar Area Css
 }
 
 .navbar-area .nav-right button:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .navbar-area.is-sticky {
@@ -1063,7 +1063,7 @@ Navbar Area Css
 }
 
 .navbar-area.is-sticky .main-nav {
-  background: #051242;
+  background: #0DCD7A;
   -webkit-box-shadow: 0 1px 10px rgba(221, 221, 221, 0.2);
           box-shadow: 0 1px 10px rgba(221, 221, 221, 0.2);
 }
@@ -1079,7 +1079,7 @@ Navbar Area Css
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #1d42d9;
+  background: #0C7489;
   height: 2px;
   display: block;
 }
@@ -1278,7 +1278,7 @@ Slider 2 Area Css
 }
 
 .slider-area-2 .home-slider .single-slider .slider-btn .border-btn:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .slider-area-2 .home-slider .single-slider .slider-btn .border-btn:hover::before {
@@ -1319,7 +1319,7 @@ Slider 2 Area Css
   padding: 0;
   position: absolute;
   left: 1%;
-  background: #1d42d9;
+  background: #0C7489;
   font-weight: bold;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1329,7 +1329,7 @@ Slider 2 Area Css
 }
 
 .slider-area-2 .home-slider.owl-theme .owl-nav .owl-prev:hover, .slider-area-2 .home-slider.owl-theme .owl-nav .owl-next:hover {
-  background: #051242;
+  background: #0DCD7A;
   color: #ffffff;
 }
 
@@ -1390,7 +1390,7 @@ Info Area Css
 
 .info-area .single-info .content h3 {
   margin-bottom: 0;
-  color: #051242;
+  color: #0DCD7A;
   font-size: 20px;
 }
 
@@ -1405,7 +1405,7 @@ Info Area Css
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #051242;
+  background-color: #0DCD7A;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -1486,7 +1486,7 @@ Service Area Css
 }
 
 .single-service .service-content h3 {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 5px;
 }
 
@@ -1501,7 +1501,7 @@ Service Area Css
   left: 100%;
   width: 100%;
   height: 100%;
-  background-color: #051242;
+  background-color: #0DCD7A;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1559,7 +1559,7 @@ Home Company Area Css
 }
 
 .home-company-area .company-content .company-tittle span {
-  color: #1d42d9;
+  color: #0C7489;
   font-size: 14px;
   margin-bottom: 8px;
   display: inline-block;
@@ -1596,7 +1596,7 @@ Home Company Area Css
   content: "";
   width: 350px;
   height: 100px;
-  background: #051242;
+  background: #0DCD7A;
   z-index: -1;
   right: -30px;
   bottom: -30px;
@@ -1625,7 +1625,7 @@ Choose Area Css
 
 .choose-area .choose-content .faq-accordion .accordion .accordion__item .accordion__button {
   padding: 15px 20px;
-  color: #051242;
+  color: #0DCD7A;
   position: relative;
   border-radius: 2px;
   font-size: 18px;
@@ -1646,14 +1646,14 @@ Choose Area Css
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #051242;
+  color: #0DCD7A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 16px;
 }
 
 .choose-area .choose-content .faq-accordion .accordion .accordion__item .accordion__button.active {
-  background-color: #051242;
+  background-color: #0DCD7A;
   color: #ffffff;
 }
 
@@ -1700,7 +1700,7 @@ Choose Area 2 Css
 
 .home2-choose-area .single-choose .icon i {
   font-size: 80px;
-  color: #051242;
+  color: #0DCD7A;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1758,7 +1758,7 @@ Choose Area 2 Css
 Process Area Css
 ======================================================*/
 .home-process-area {
-  background-color: #051242;
+  background-color: #0DCD7A;
 }
 
 .home-process-area .section-title span {
@@ -1940,7 +1940,7 @@ Home Case Area Css
 }
 
 .home-case .case-list .single-case:hover h3 {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 /*
@@ -1951,7 +1951,7 @@ Feature Area Css
 }
 
 .feature-area .feature-tittle span {
-  color: #1d42d9;
+  color: #0C7489;
   display: inline-block;
   margin-top: -8px;
   margin-bottom: 8px;
@@ -1970,7 +1970,7 @@ Feature Area Css
 .feature-area .contnet ul li {
   position: relative;
   padding-left: 30px;
-  color: #051242;
+  color: #0DCD7A;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -1984,7 +1984,7 @@ Feature Area Css
   display: inline-block;
   left: 0;
   top: 0;
-  color: #1d42d9;
+  color: #0C7489;
   font-size: 18px;
 }
 
@@ -2070,7 +2070,7 @@ Team Area Css
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #1d42d9;
+  color: #0C7489;
   transition: 0.3s;
 }
 
@@ -2079,7 +2079,7 @@ Team Area Css
 }
 
 .home-team-area .single-team .team-img .social li a:hover {
-  background: #1d42d9;
+  background: #0C7489;
   color: #ffffff;
 }
 
@@ -2091,7 +2091,7 @@ Team Area Css
 }
 
 .home-team-area .single-team .content h3 {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -2110,7 +2110,7 @@ Team Area Css
   width: 100%;
   height: 0;
   bottom: -50px;
-  background: #051242;
+  background: #0DCD7A;
   opacity: 0.95;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2198,7 +2198,7 @@ Client Area Css
   top: -30px;
   left: 0;
   right: 0;
-  border: 1px solid #1d42d9;
+  border: 1px solid #0C7489;
   border-radius: 4px;
   margin: auto;
 }
@@ -2220,7 +2220,7 @@ Client Area Css
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .client-wrap.owl-theme .owl-nav .owl-prev:hover, .client-wrap.owl-theme .owl-nav .owl-next:hover {
@@ -2301,13 +2301,13 @@ Blog Area Css
 }
 
 .home-blog-area .single-blog .content .line-bnt {
-  color: #051242;
+  color: #0DCD7A;
 }
 
 .home-blog-area .single-blog::after {
   position: absolute;
   content: "";
-  background: #051242;
+  background: #0DCD7A;
   opacity: 0.8;
   bottom: 0;
   left: 100%;
@@ -2405,11 +2405,11 @@ Technology Area Css
   line-height: 70px;
   text-align: center;
   border-radius: 50%;
-  color: #1d42d9;
+  color: #0C7489;
   position: relative;
   top: 3px;
   z-index: 1;
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .video-btn i {
@@ -2442,7 +2442,7 @@ Technology Area Css
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .video-btn::before {
@@ -2456,7 +2456,7 @@ Technology Area Css
 }
 
 .video-btn:hover {
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .video-btn:hover i {
@@ -2667,7 +2667,7 @@ Solutions Area Css
 }
 
 .solutions-area .single-solutions .solutions-content h3 {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 10px;
 }
 
@@ -2677,7 +2677,7 @@ Solutions Area Css
 }
 
 .solutions-area .single-solutions .solutions-content .line-bnt {
-  color: #1d42d9;
+  color: #0C7489;
   font-size: 14px;
 }
 
@@ -2689,7 +2689,7 @@ Solutions Area Css
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  background-color: #051242;
+  background-color: #0DCD7A;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -2961,7 +2961,7 @@ Solutions Details Area Css
 }
 
 .solutions-details-area .right-content .recent-post .post .info h4 a {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 0;
   line-height: 1.5;
   font-size: 14px;
@@ -3091,7 +3091,7 @@ Case Area Css
 }
 
 .case-area .case-list .single-case .content a h3 {
-  color: #051242;
+  color: #0DCD7A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3115,7 +3115,7 @@ Case Area Css
   position: absolute;
   bottom: 0;
   content: "";
-  background: #051242;
+  background: #0DCD7A;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -3341,7 +3341,7 @@ Case Details Area Css
 }
 
 .case-details-area .right-content .recent-post .post .info h4 a {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 0;
   line-height: 1.5;
   font-size: 14px;
@@ -3448,7 +3448,7 @@ Blog Area Css
   height: 15px;
   left: -16px;
   top: 2px;
-  background: #051242;
+  background: #0DCD7A;
 }
 
 .blog-area .single-blog .content span {
@@ -3457,7 +3457,7 @@ Blog Area Css
 }
 
 .blog-area .single-blog .content h3 {
-  color: #051242;
+  color: #0DCD7A;
   margin-top: 10px;
 }
 
@@ -3467,13 +3467,13 @@ Blog Area Css
 }
 
 .blog-area .single-blog .content .line-bnt {
-  color: #051242;
+  color: #0DCD7A;
 }
 
 .blog-area .single-blog::after {
   position: absolute;
   content: "";
-  background: #051242;
+  background: #0DCD7A;
   opacity: 0.8;
   bottom: 0;
   left: 100%;
@@ -3539,14 +3539,14 @@ Blog Details Area Style
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li {
   position: relative;
   display: inline-block;
-  color: #1d42d9;
+  color: #0C7489;
   margin-right: 21px;
   font-size: 14px;
 }
 
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li span {
   display: inline-block;
-  color: #1d42d9;
+  color: #0C7489;
   font-weight: 500;
 }
 
@@ -3557,11 +3557,11 @@ Blog Details Area Style
 }
 
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li i {
-  color: #1d42d9;
+  color: #0C7489;
   margin-right: 2px;
 }
 
@@ -3572,7 +3572,7 @@ Blog Details Area Style
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #1d42d9;
+  background: #0C7489;
 }
 
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -3634,7 +3634,7 @@ Blog Details Area Style
 
 .blog-details-area .blog-details-desc .article-footer .article-tags span {
   display: inline-block;
-  color: #1d42d9;
+  color: #0C7489;
   font-size: 20px;
   margin-right: 5px;
   position: relative;
@@ -3648,7 +3648,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .blog-details-desc .article-footer .article-tags a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .blog-details-desc .article-footer .article-share {
@@ -3683,7 +3683,7 @@ Blog Details Area Style
   height: 32px;
   line-height: 33px;
   border-radius: 50%;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   text-align: center;
   font-size: 14px;
 }
@@ -3723,7 +3723,7 @@ Blog Details Area Style
 }
 
 .blog-details-area blockquote::before {
-  color: #1d42d9;
+  color: #0C7489;
   content: "\ee34";
   position: absolute;
   left: 50px;
@@ -3742,7 +3742,7 @@ Blog Details Area Style
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -3798,7 +3798,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .post-navigation .navigation-links div a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .comments-area {
@@ -3822,7 +3822,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #1d42d9;
+  background: #0C7489;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -3877,8 +3877,8 @@ Blog Details Area Style
 
 .blog-details-area .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #1d42d9;
-  border-color: #1d42d9;
+  background-color: #0C7489;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-meta {
@@ -3924,7 +3924,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-metadata a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-content p {
@@ -3947,7 +3947,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #1d42d9;
+  background: #0C7489;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -3986,7 +3986,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="datetime-local"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="week"] {
@@ -4001,7 +4001,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="week"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="month"] {
@@ -4016,7 +4016,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="month"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="text"] {
@@ -4031,7 +4031,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="text"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="email"] {
@@ -4046,7 +4046,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="email"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="url"] {
@@ -4061,7 +4061,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="url"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="password"] {
@@ -4076,7 +4076,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="password"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="search"] {
@@ -4091,7 +4091,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="search"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="tel"] {
@@ -4106,7 +4106,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="tel"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond input[type="number"] {
@@ -4121,7 +4121,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond input[type="number"]:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond textarea {
@@ -4136,7 +4136,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond textarea:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .comments-area .comment-respond .comment-form-author {
@@ -4186,7 +4186,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .comments-area .comment-respond .form-submit input {
-  background: #1d42d9;
+  background: #0C7489;
   border: none;
   color: #ffffff;
   padding: 14px 30px 12px;
@@ -4208,7 +4208,7 @@ Blog Details Area Style
 
 .blog-details-area .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget {
@@ -4244,7 +4244,7 @@ Blog Details Area Style
   left: 0;
   width: 2px;
   height: 100%;
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_search form {
@@ -4273,7 +4273,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_search form .search-field:focus {
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_search form button {
@@ -4285,7 +4285,7 @@ Blog Details Area Style
   width: 50px;
   border: none;
   color: #ffffff;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
@@ -4376,7 +4376,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb .item .info .title a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_recent_entries ul {
@@ -4400,7 +4400,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_recent_entries ul li::before {
-  background: #1d42d9;
+  background: #0C7489;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -4439,7 +4439,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_categories ul li::before {
-  background: #1d42d9;
+  background: #0C7489;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -4463,7 +4463,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_categories ul li a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_categories ul li .post-count {
@@ -4492,7 +4492,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_meta ul li a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_meta ul li:last-child {
@@ -4500,7 +4500,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_meta ul li::before {
-  background: #1d42d9;
+  background: #0C7489;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -4528,14 +4528,14 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .tagcloud a:hover {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
 }
 
 .blog-details-area .widget-area .tagcloud a:focus {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .blog-details-area .widget-area .widget_services_list ul {
@@ -4583,7 +4583,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_services_list ul li a:hover {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4595,7 +4595,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_services_list ul li a.active {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4655,7 +4655,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_download ul li a:hover {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4667,7 +4667,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_download ul li a.active {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4724,7 +4724,7 @@ FAQ Area Css
 
 .faq-area .faq-accordion .accordion .accordion-item .accordion-title {
   padding: 15px 60px 15px 70px;
-  color: #051242;
+  color: #0DCD7A;
   position: relative;
   background: #fff;
   border-radius: 2px;
@@ -4739,7 +4739,7 @@ FAQ Area Css
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #051242;
+  color: #0DCD7A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 16px;
@@ -4785,7 +4785,7 @@ FAQ Area Css
   text-align: center;
   font-size: 25px;
   line-height: 40px;
-  color: #051242;
+  color: #0DCD7A;
   top: 10px;
   left: 15px;
 }
@@ -4880,7 +4880,7 @@ Price Area Css
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
-  background: #051242;
+  background: #0DCD7A;
 }
 
 .price-area .single-price .price-head h2 {
@@ -4913,7 +4913,7 @@ Price Area Css
 }
 
 .price-area .single-price .box-btn {
-  background: #051242;
+  background: #0DCD7A;
   color: #fff;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -4926,8 +4926,8 @@ Price Area Css
 }
 
 .price-area .single-price:hover .box-btn {
-  border: 1px dashed #1d42d9;
-  color: #1d42d9;
+  border: 1px dashed #0C7489;
+  color: #0C7489;
   background: #fff;
 }
 
@@ -4959,7 +4959,7 @@ Testimonials Area Css
 }
 
 .testimonials-area .single-testimonials .testimonials-head .testimonials-img {
-  border: 1px solid #1d42d9;
+  border: 1px solid #0C7489;
   padding: 6px;
   overflow: hidden;
 }
@@ -5022,7 +5022,7 @@ Terms Area Css
 
 .terms-area h2,
 .privecy-area h2 {
-  color: #051242;
+  color: #0DCD7A;
   margin-bottom: 15px;
   font-size: 30px;
 }
@@ -5239,7 +5239,7 @@ Contact Area Css
 .home-contact-area .content input.form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .home-contact-area .content textarea.form-control {
@@ -5256,7 +5256,7 @@ Contact Area Css
 .home-contact-area .content textarea.form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #1d42d9;
+  border-color: #0C7489;
 }
 
 .home-contact-area .content button {
@@ -5332,7 +5332,7 @@ Contact Area Css
 .contact-area .single-contact .icon {
   width: 45px;
   height: 45px;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -5474,8 +5474,8 @@ Footer Area Css
 }
 
 .footer-area .content .subscribe button:hover {
-  background-color: #1d42d9;
-  color: #1d42d9;
+  background-color: #0C7489;
+  color: #0C7489;
 }
 
 .footer-area .content .subscribe #validator-newsletter {
@@ -5496,7 +5496,7 @@ Footer Area Css
 .footer-area .content .social li a {
   width: 35px;
   height: 35px;
-  background: #1d42d9;
+  background: #0C7489;
   border-radius: 5px;
   line-height: 40px;
   text-align: center;
@@ -5585,7 +5585,7 @@ Footer Area Css
   top: 0;
   width: 30px;
   height: 30px;
-  background: #1d42d9;
+  background: #0C7489;
   border-radius: 5px;
   line-height: 31px;
   text-align: center;
@@ -5640,7 +5640,7 @@ Footer Area Css
 }
 
 .footer-area-2 {
-  background: #051242;
+  background: #0DCD7A;
   position: relative;
   z-index: 1;
 }
@@ -5706,7 +5706,7 @@ Page Title Area Css
 }
 
 .page-title-area .page-title-content ul li a:hover {
-  color: #1d42d9;
+  color: #0C7489;
 }
 
 .page-title-area .page-title-content ul .active {
@@ -5763,7 +5763,7 @@ Pagenavigation Area Css
 }
 
 .page-navigation-area .page-link {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   width: 40px;
@@ -5784,7 +5784,7 @@ Pagenavigation Area Css
 
 .page-navigation-area .page-link:hover {
   color: #ffffff;
-  background-color: #051242;
+  background-color: #0DCD7A;
 }
 
 .page-navigation-area .page-link:focus {
@@ -5813,7 +5813,7 @@ Pagenavigation Area Css
 .page-navigation-area .page-item.active .page-link {
   z-index: 1;
   color: #ffffff;
-  background-color: #051242;
+  background-color: #0DCD7A;
 }
 
 /*
@@ -5969,7 +5969,7 @@ Pricing Area Style
 
 .single-pricing span {
   font-size: 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Catamaran", sans-serif;
   color: #293a5c;
   font-weight: 700;
   display: block;
@@ -6049,26 +6049,26 @@ Pricing Area Style
 .tab.quote-list-tab .tabs {
   border-radius: 10px;
   display: inline-block;
-  border: 1px solid #1d42d9;
+  border: 1px solid #0C7489;
   margin-bottom: 30px;
 }
 
 .tab.quote-list-tab .tabs li {
   display: inline-block;
   padding: 0 10px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Catamaran", sans-serif;
   color: #293a5c;
   font-size: 20px;
   font-weight: 700;
 }
 
 .tab.quote-list-tab .tabs li a {
-  color: #1d42d9;
+  color: #0C7489;
   padding: 10px 20px;
 }
 
 .tab.quote-list-tab .tabs .current {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   border-radius: 10px;
 }
 
@@ -6100,7 +6100,7 @@ Services Details Area Style
   width: 30px;
   height: 30px;
   line-height: 38px;
-  background-color: #1d42d9;
+  background-color: #0C7489;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
@@ -6176,8 +6176,8 @@ Banner Area Three Style
 }
 
 .main-banner-three .main-banner-content .content .slider-btn-wrap .box-btn.border-btn {
-  border: 1px solid #1d42d9;
-  color: #1d42d9;
+  border: 1px solid #0C7489;
+  color: #0C7489;
   margin-left: 20px;
 }
 
@@ -6217,16 +6217,16 @@ Banner Area Three Style
 }
 
 .main-banner-three .banner-image-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1d42d9;
+  background-color: #0C7489;
   width: 25px;
 }
 
 .main-banner-three .banner-image-slider.owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #1d42d9;
+  background-color: #0C7489;
 }
 
 .main-banner-three .banner-image-slider.owl-theme .owl-prev, .main-banner-three .banner-image-slider.owl-theme .owl-next {
-  background-color: #1d42d9 !important;
+  background-color: #0C7489 !important;
   position: absolute;
   bottom: 50%;
   left: 0;
@@ -6247,7 +6247,7 @@ Banner Area Three Style
 }
 
 .main-banner-three .banner-image-slider.owl-theme .owl-prev:hover, .main-banner-three .banner-image-slider.owl-theme .owl-next:hover {
-  background-color: #051242;
+  background-color: #0DCD7A;
 }
 
 .main-banner-three .banner-image-slider.owl-theme .owl-prev:hover i, .main-banner-three .banner-image-slider.owl-theme .owl-next:hover i {
