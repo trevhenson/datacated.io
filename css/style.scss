@@ -39,13 +39,13 @@ Default Style
 $body-font-family: "Nunito Sans", sans-serif;
 $heading-font-family: "Catamaran", sans-serif;
 
-$main-color: #0C7489; 
+$main-color: #0DCD7A; 
 $body-color: #7a7e9a;
 $heading-color: #293a5c;
 $white-color: #ffffff;
 $black-color: #000000;
-$dark-blue-color:#0DCD7A;
-$box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+$dark-blue-color:#0C7489;
+$box-shadow: 0 0 20px 3px rgba(5, 5, 5, 0.05);
 $transition: all 0.5s;
 $border-ra: all 0.5s;
 $border-radius: 4px;
@@ -433,7 +433,7 @@ Go Top Style*/
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #ffffff;
+            background-color: #000000;
             animation: sk-foldCubeAngle 2.4s infinite linear both;
             transform-origin: 100% 100%;
             @keyframes sk-foldCubeAngle {
