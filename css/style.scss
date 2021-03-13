@@ -41,7 +41,7 @@ $heading-font-family: "Catamaran", sans-serif;
 
 $main-color: #0DCD7A; 
 $body-color: #7a7e9a;
-$heading-color: #13505B;
+$heading-color: #293a5c;
 $white-color: #ffffff;
 $black-color: #000000;
 $dark-blue-color:#0C7489;
@@ -621,7 +621,7 @@ header-2 Area Css
 Navbar Area Css
 ======================================================*/
 .navbar-area {
-    background-color: #0C7489;
+    background-color: transparent;
     transition: 0.3s;
     position: relative;
     padding: {
@@ -636,7 +636,7 @@ Navbar Area Css
         }
     }
     .main-nav {
-        background: #0C7489;
+        background: transparent;
         transition: 0.4s;
         .navbar {
             transition: 0.4s;
@@ -671,7 +671,7 @@ Navbar Area Css
                             size: 16px;
                             weight: 400;
                         }
-                        color: #0DCD7A;
+                        color: #fff;
                         text-transform: capitalize;
                         padding: {
                             left: 0;
@@ -930,7 +930,7 @@ Banner Area Css
 ======================================================*/
 .banner-area {
     position: relative;
-    background: url(/images/home-bg-2.png);
+    background: url(/images/home-bg-1.png);
     background-size: cover;
     overflow: hidden;
     width: 100%;
@@ -4495,11 +4495,11 @@ Footer Area Css
         width: 100%;
         height: 100%;
         z-index: -1;
-        background-image: url(/images/footer-bg.png);
+        background-image: url(/images/footer-bg1.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        animation: imageChange 10s linear 10s infinite;
+        animation: imageChange 1s linear 1s infinite;
         @keyframes imageChange {
             0% {
                 opacity: 1;
@@ -4714,7 +4714,7 @@ Page Title Area Css
 	padding-top: 200px;
 	padding-bottom: 150px;
 	text-align: center;
-    background-color: #0C7489;
+    background-color: #051242;
 	height: 100%;
 	z-index: 1;
 	.page-title-content {

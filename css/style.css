@@ -52,7 +52,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #13505B;
+  color: #293a5c;
 }
 
 a:focus {
@@ -72,7 +72,7 @@ button:focus {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #13505B;
+  color: #293a5c;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
 }
@@ -113,7 +113,7 @@ ul {
 
 .form-control {
   height: 50px;
-  color: #13505B;
+  color: #293a5c;
   border: 1px solid #e8e8e8;
   background-color: transparent;
   border-radius: 0;
@@ -355,7 +355,7 @@ Go Top Style*/
 
 .go-top:hover {
   color: #ffffff;
-  background-color: #13505B;
+  background-color: #293a5c;
 }
 
 .go-top:hover::before {
@@ -493,14 +493,14 @@ Go Top Style*/
 /** Line Btn Css **/
 .line-bnt {
   font-size: 14px;
-  color: #13505B;
+  color: #293a5c;
   font-weight: 600;
   line-height: 1;
 }
 
 .line-bnt:hover {
   letter-spacing: 1px;
-  color: #13505B;
+  color: #293a5c;
 }
 
 /** Preloader Css **/
@@ -786,7 +786,7 @@ header-2 Area Css
 Navbar Area Css
 ======================================================*/
 .navbar-area {
-  background-color: #0C7489;
+  background-color: transparent;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   position: relative;
@@ -801,7 +801,7 @@ Navbar Area Css
 }
 
 .navbar-area .main-nav {
-  background: #0C7489;
+  background: transparent;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -840,7 +840,7 @@ Navbar Area Css
 .navbar-area .main-nav .navbar .navbar-nav .nav-item a {
   font-size: 16px;
   font-weight: 400;
-  color: #0DCD7A;
+  color: #fff;
   text-transform: capitalize;
   padding-left: 0;
   padding-right: 0;
@@ -1707,7 +1707,7 @@ Choose Area 2 Css
 
 .home2-choose-area .single-choose h3 {
   text-align: center;
-  color: #13505B;
+  color: #293a5c;
   margin-bottom: 0;
   padding: 10px 5px;
   font-size: 17px;
@@ -2165,7 +2165,7 @@ Client Area Css
 }
 
 .client-area .top-title {
-  color: #13505B;
+  color: #293a5c;
 }
 
 .client-area::before {
@@ -3519,7 +3519,7 @@ Blog Details Area Style
 
 .blog-details-area .blog-details-desc .article-image {
   position: relative;
-  background-color: #13505B;
+  background-color: #293a5c;
 }
 
 .blog-details-area .blog-details-desc .article-content {
@@ -3709,7 +3709,7 @@ Blog Details Area Style
 }
 
 .blog-details-area blockquote p {
-  color: #13505B;
+  color: #293a5c;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -3794,7 +3794,7 @@ Blog Details Area Style
 .blog-details-area .post-navigation .navigation-links div a {
   display: inline-block;
   font-weight: 600;
-  color: #13505B;
+  color: #293a5c;
 }
 
 .blog-details-area .post-navigation .navigation-links div a:hover {
@@ -3864,7 +3864,7 @@ Blog Details Area Style
 
 .blog-details-area .comments-area .comment-body .reply a {
   border: 1px solid #ded9d9;
-  color: #13505B;
+  color: #293a5c;
   display: inline-block;
   padding: 5px 20px;
   border-radius: 30px;
@@ -3902,7 +3902,7 @@ Blog Details Area Style
 
 .blog-details-area .comments-area .comment-author .fn {
   font-weight: 600;
-  color: #13505B;
+  color: #293a5c;
   font-size: 18px;
 }
 
@@ -3970,7 +3970,7 @@ Blog Details Area Style
 .blog-details-area .comments-area .comment-respond label {
   display: block;
   font-weight: 500;
-  color: #13505B;
+  color: #293a5c;
   margin-bottom: 5px;
 }
 
@@ -4203,7 +4203,7 @@ Blog Details Area Style
 
 .blog-details-area .comments-area .comment-respond .form-submit input:hover {
   color: #ffffff;
-  background-color: #13505B;
+  background-color: #293a5c;
 }
 
 .blog-details-area .comments-area .comment-respond .form-submit input:focus {
@@ -4233,7 +4233,7 @@ Blog Details Area Style
   margin-bottom: 0;
   background-color: #ececec;
   padding: 10px 20px;
-  color: #13505B;
+  color: #293a5c;
   position: relative;
 }
 
@@ -4292,7 +4292,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_search form button:hover {
-  background-color: #13505B;
+  background-color: #293a5c;
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb {
@@ -4330,7 +4330,7 @@ Blog Details Area Style
   background-repeat: no-repeat;
   background-position: center center !important;
   position: relative;
-  background-color: #13505B;
+  background-color: #293a5c;
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb .item .thumb .fullimage.bg1 {
@@ -4372,7 +4372,7 @@ Blog Details Area Style
 
 .blog-details-area .widget-area .widget-peru-posts-thumb .item .info .title a {
   display: inline-block;
-  color: #13505B;
+  color: #293a5c;
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb .item .info .title a:hover {
@@ -5371,12 +5371,12 @@ Footer Area Css
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url(/images/footer-bg.png);
+  background-image: url(/images/footer-bg1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-animation: imageChange 10s linear 10s infinite;
-          animation: imageChange 10s linear 10s infinite;
+  -webkit-animation: imageChange 1s linear 1s infinite;
+          animation: imageChange 1s linear 1s infinite;
 }
 
 @-webkit-keyframes imageChange {
@@ -5658,7 +5658,7 @@ Page Title Area Css
   padding-top: 200px;
   padding-bottom: 150px;
   text-align: center;
-  background-color: #0C7489;
+  background-color: #051242;
   height: 100%;
   z-index: 1;
 }
@@ -5970,7 +5970,7 @@ Pricing Area Style
 .single-pricing span {
   font-size: 30px;
   font-family: "Catamaran", sans-serif;
-  color: #13505B;
+  color: #293a5c;
   font-weight: 700;
   display: block;
   line-height: 1;
@@ -6057,7 +6057,7 @@ Pricing Area Style
   display: inline-block;
   padding: 0 10px;
   font-family: "Catamaran", sans-serif;
-  color: #13505B;
+  color: #293a5c;
   font-size: 20px;
   font-weight: 700;
 }
@@ -6183,7 +6183,7 @@ Banner Area Three Style
 
 .main-banner-three .main-banner-content .content .slider-btn-wrap .box-btn.border-btn:hover {
   color: #ffffff;
-  border-color: #13505B;
+  border-color: #293a5c;
 }
 
 .main-banner-three .banner-image-slider .banner-image {
